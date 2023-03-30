@@ -1,0 +1,293 @@
+/* CopyRight: wjc */
+.header{
+	width: 100%; 
+	height: 8%;
+	border-bottom: 1px solid rgba(0,0,0,1.00);
+	float:left;
+	margin-top: -1%;
+	position: fixed;
+	background: rgba(255,255,255,1.00);
+}
+@font-face{
+	font-family: "SmileySans Oblique";
+	src: url("../fonts/SmileySans-Oblique.ttf")
+}
+a:link {
+      color:#676b73;
+      text-decoration: none;
+    }
+
+    /* 已访问链接的样式 */
+    a:visited {
+      color:#676b73;
+      text-decoration: none;
+    }
+
+    /* 鼠标悬停链接的样式 */
+    a:hover {
+      color:#676b73;
+      text-decoration: underline;
+    }
+
+    /* 获得焦点链接的样式 */
+    a:focus {
+      color:#676b73;
+      box-shadow: 0 0 2px 2px yellow;
+    }
+html {
+  scroll-padding: 135px; /* 为页面顶部留下100像素的空间 */
+}
+.header_company{
+	width: 6%; 
+	height: 80%;
+	font-family: "SmileySans Oblique";
+	font-size: 160%;color:blue;
+	margin: -0.75% 0 0 2%;
+	float: left
+}
+.header_navbar{
+	width: 80%; 
+	height: 80%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 90%; 
+	text-align: right;
+	float:right;
+	color:#676b73;
+	margin:0.75% 0 0 0;
+	padding-right: 3%;
+	overflow: auto;
+}
+.header_navbar_item{display: inline;
+	color:#676b73;
+	margin: 0 2% 0 2%
+}
+.product{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(245,245,245,1.00);
+}
+.product_image{
+	width: auto;
+	height: auto;
+	margin: 5% 5% 0 0;
+	float:left;
+}
+.product_header{
+	float:right;
+	margin-top: 10%;
+	margin-right: 5%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: right;
+}
+.product_description{
+	float:right;
+	margin-top: -1%;
+	margin-right: 5%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	text-align: right;
+	line-height: 0.6
+}
+
+.product_link{
+	float:right;
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: 100;
+	text-align: right;
+}
+@media screen and (max-width:1000px) {
+	.product_header{display: none;}
+	.product_description{display: none;}
+	.product_link{display: none;}
+}
+
+.story{
+	width: auto;
+	height: auto;
+	margin: 5% 15% 5% 15%;
+	overflow: auto;
+}
+.story_author_header{
+	width:100%;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: left;
+	line-height: 0.7;
+}
+.story_author_description{
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+}
+.story_idea_header{
+	width:100%;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: left;
+	line-height: 0.7;
+}
+.story_idea_description{
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+}
+.story_slogan_header{
+	width:100%;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: left;
+	line-height: 0.7;
+}
+.story_slogan_description { /*this just copy from www.mihoyo.com*/
+    background-image: -o-linear-gradient(225deg, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0);
+    background-image: linear-gradient(-135deg, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0);
+    background-image: -ms-linear-gradient(-135deg, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0, #56a0d8, #dc8bc3, #56a0d8, #418ae0);
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    -webkit-animation: masked-animation 3s infinite linear;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: masked-animation;
+    animation: masked-animation 3s infinite linear;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: masked-animation;
+	width:100%;
+	overflow: auto;
+	text-align: center;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 200%;
+	font-weight: 100;
+}
+.generalStructure{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(245,245,245,1.00);
+}
+.generalStructure_center{
+	width: auto;
+	height: auto;
+	margin: 2.5% 15% 2.5% 15%;
+	overflow: auto;
+}
+.generalStructure_header{
+	width:100%;
+	margin: 2.5% 0 2.5% 0;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: center;
+	line-height: 0.7;
+}
+.generalStructure_image{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-bottom: 5%;
+}
+.innovation{
+	/* CopyRight: wjc */
+	width: auto;
+	height: auto;
+	margin: 2.5% 15% 2.5% 15%;
+	overflow: auto;
+}
+.innovation_header{
+	/* CopyRight: wjc */
+	width:100%;
+	margin: 2.5% 0 2.5% 0;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: center;
+	line-height: 0.7;
+}
+.innovation_description{
+	/* CopyRight: wjc */
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+}
+.document{
+	/* CopyRight: wjc */
+	width: auto;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(245,245,245,1.00);
+}
+.document_center{
+	/* CopyRight: wjc */
+	width: auto;
+	height: auto;
+	margin: 2.5% 15% 0 15%;
+	overflow: auto;
+}
+.document_header{
+	/* CopyRight: wjc */
+	width:100%;
+	margin: 2.5% 0 2.5% 0;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: left;
+	line-height: 0.7;
+}
+.document_links{
+	/* CopyRight: wjc */
+	width: 40%;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+	margin-bottom: 5%;
+}

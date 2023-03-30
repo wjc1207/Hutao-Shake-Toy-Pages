@@ -1,0 +1,62 @@
+.operationManual{
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+.operationManual_left{
+	width: 49%;
+	float:left;
+	border-right: 1px solid black;
+	overflow: auto;
+}
+.operationManual_right{
+	width: 49%;
+	float:right;
+	overflow: auto;
+}
+.operationManual_header{
+	width:100%;
+	margin: 0 0 2.5% 0;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: center;
+}
+.operationManual_image{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	float:left;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.operationManual_description_center{
+	float:left;
+	width: 90%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.operationManual_description_right{
+	float:right;
+	width: 40%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+	margin-bottom: 5%;
+	margin-right: 5%;
+}
+.operationManual_code{
+	background-color: rgba(230,230,230,1.00);
+}
