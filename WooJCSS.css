@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.div{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(255,255,255,1.00);
+}
+.div_grey{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	background-color:rgba(245,245,245,1.00);
+}
+.div_center{
+	width: auto;
+	height: auto;
+	margin: 2.5% 15% 2.5% 15%;
+	overflow: auto;
+}
+.div_header_center{
+	width:100%;
+	overflow: auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight: 600; /*more size and more weight letter can attract people's attention*/
+	text-align: center;
+	line-height: 0.7;
+}
+.div_description_center{
+	/* CopyRight: wjc */
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.8;
+	text-align: left;
+	overflow: auto;
+}
